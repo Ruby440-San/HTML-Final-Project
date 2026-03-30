@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML Final Project</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <style>
+      table{
+        width: 100%;
+      }
+      .nav-td{
+        background-color: black;
+        color: white;
+        height: 50px;
+        text-align: center;
+      }
+      input, select{
+        width: 100%;
+        height: 35px;
+      }
+      .contact-td{
+        padding: 5px;
+      }
+      textarea{
+        width: 100%;
+        height: 150px;
+      }
+      a{
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <table>
+      <tr>
+        <td class="nav-td"><a href="#">Home</a></td>
+        <td class="nav-td"><a href="#about-section">About</a></td>
+        <td class="nav-td"><a href="#skill-section">Skill</a></td>
+        <td class="nav-td"><a href="#contact-section">Contact</a></td>
+      </tr>
+      </table>
+    </nav>
+      <section id="images-section">
+      <table>
+      <tr>
+        <td><img src="images/download.jpg" alt="Cute girl" width="100%"></td>
+        <td><img src="images/download2.jpg" alt="Cute girl" width="100%"></td>
+      </tr>
+      </table>
+      </section>
+
+      <section id="home-section">
+        <h2 align="center">Hello,Welcome</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At necessitatibus, nesciunt temporibus nemo ratione a iure perspiciatis error alias perferendis maiores numquam nobis. Laudantium, molestias expedita et dolorem tempore porro!.Lorem ipsum dolor sit amet consectetur adipisicing elit. At necessitatibus, nesciunt temporibus nemo ratione a iure perspiciatis error alias perferendis maiores numquam nobis. Laudantium, molestias expedita et dolorem tempore porro!.
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At necessitatibus, nesciunt temporibus nemo ratione a iure perspiciatis error alias perferendis maiores numquam nobis. Laudantium, molestias expedita et dolorem tempore porro!.Lorem ipsum dolor sit amet consectetur adipisicing elit. At necessitatibus, nesciunt temporibus nemo ratione a iure perspiciatis error alias perferendis maiores numquam nobis. Laudantium, molestias expedita et dolorem tempore porro!.</p>
+      </section>
+
+      <section id="about-section">
+        <h2 align="center">About Me</h2>
+        <table>
+          <tr>
+            <td><img src="Images/download1.jpg" width="500px"></td>
+            <td>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum omnis dolores laborum. Fuga aperiam ut voluptatibus qui facilis impedit veritatis reprehenderit reiciendis blanditiis, asperiores laboriosam ea vel expedita laborum culpa.Lorem ipsum dolor sit amet consectetur adipisicing elit. At necessitatibus, nesciunt temporibus nemo ratione a iure perspiciatis error alias perferendis maiores numquam nobis. Laudantium, molestias expedita et dolorem tempore porro!.Lorem ipsum dolor sit amet consectetur adipisicing elit. At necessitatibus, nesciunt temporibus nemo ratione a iure perspiciatis error alias perferendis maiores numquam nobis. Laudantium, molestias expedita et dolorem tempore porro!.</p>
+            </td>
+          </tr>
+        </table>
+      </section>
+
+      <section id="skill-section">
+        <h2 align="center">My Skills</h2>
+        <table>
+          <tr>
+            <td>
+              <ul type="square">
+          <h2>Front End</h2>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Javascript</li>
+          <li>jQuery</li>
+          <li>BootStrap</li>
+          <li>Vuejs</li>
+        </ul></td>
+            <td>
+            <ul type="square">
+          <h2>Back End</h2>
+          <li>PHP</li>
+          <li>MySQL</li>
+          <li>Laravel</li>
+          <li>Python</li>
+          <li>C#</li>
+          <li>Dart</li>
+        </ul></td>
+          </tr>
+        </table>
+        
+
+        
+
+
+      </section>
+
+      <section id="contact-section">
+        <h2 align="center">Contact Me</h2>
+        <table>
+          <tr>
+            <td class="contact-td">
+              <input type="text" name="first_name" placeholder="First Name">
+            </td>
+            <td class="contact-td">
+              <input type="text" name="last_name" placeholder="Last Name">
+            </td>
+          </tr>
+
+          <tr>
+            <td class="contact-td">
+              <input type="text" name="email-address" placeholder="Email Address">
+            </td>
+            <td class="contact-td">
+              <input type="text" name="phone_number" placeholder="Phone Number">
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <select>
+                <option value="">Select State</option>
+                <option value="Chin">Chin</option>
+                <option value="Yangon">Yangon</option>
+                <option value="Rakhin">Rakhin</option>
+              </select>
+            </td>
+            <td>
+              <select>
+                <option value="">Select Township</option>
+                <optgroup label="Chin">
+                  <option value="Hakha">Hakha</option>
+                  <option value="Falam">Falam</option>
+                  <option value="Mindat">Mindat</option>
+                </optgroup>
+                <optgroup label="Yangon">
+                  <option value="Bahan">Bahan</option>
+                  <option value="Hlaing">Hlaing</option>
+                  <option value="South Dagon">South Dagon</option>
+                </optgroup>
+                <optgroup label="Rakhin">
+                  <option value="Sittwe">Sittwe</option>
+                  <option value="Minbya">Minbya</option>
+                </optgroup>
+
+              </select>
+            </td>
+          </tr>
+
+          <tr>
+            <td colspan="2">
+              <textarea placeholder="Message"></textarea>
+            </td>
+          </tr>
+        </table>
+      </section>
+
+      <footer style="background-color: black; color: white; height: 100px;">
+        <br>
+        <p align="center"> &copy; All right reserved by Ruby</p>
+      </footer>
+    
+  </body>
+</html>
